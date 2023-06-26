@@ -282,6 +282,10 @@ add_action(
 			return;
 		}
 
+		if(is_login()) {
+			return;
+		}
+
 		# upgrade existing
 		$configs = [];
 		if (isset($options['config'])) {
