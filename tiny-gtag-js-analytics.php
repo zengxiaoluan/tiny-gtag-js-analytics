@@ -282,7 +282,7 @@ add_action(
 			return;
 		}
 
-		if(is_login()) {
+		if(is_user_logged_in()) {
 			return;
 		}
 
